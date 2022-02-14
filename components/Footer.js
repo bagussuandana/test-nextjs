@@ -4,7 +4,6 @@ import { VscSymbolRuler, VscInfo } from "react-icons/vsc";
 import { RiCustomerService2Line } from "react-icons/ri";
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { GlobalContext } from '../lib/recoil-atoms';
 
 export default function Footer() {
     const router = useRouter();

@@ -4,10 +4,10 @@ import AppLayout from "../layouts/AppLayouts"
 
 export default function Tags() {
     return (
-        <div>
-            <TagsGroup />
-        </div>
+        <AppLayout title="Tags">
+            <div>
+                <TagsGroup />
+            </div>
+        </AppLayout>
     )
 }
-
-Tags.getLayout = page => <AppLayout children={page} />

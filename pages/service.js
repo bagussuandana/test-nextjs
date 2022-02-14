@@ -3,10 +3,10 @@ import AppLayout from '../layouts/AppLayouts'
 
 export default function Service() {
     return (
-        <div className="space-x-2">
-            Service
-        </div>
+        <AppLayout title="Service">
+            <div className="space-x-2">
+                Service
+            </div>
+        </AppLayout>
     )
 }
-
-Service.getLayout = page => <AppLayout children={page} />

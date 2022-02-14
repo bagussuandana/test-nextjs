@@ -10,10 +10,10 @@ console.log(
 export default function Home() {
 
   return (
-    <div className="space-x-2">
-      <SearchForm placeholder="search blog" />
-    </div>
+    <AppLayout>
+      <div className="space-x-2">
+        <SearchForm placeholder="search blog" />
+      </div>
+    </AppLayout>
   )
 }
-
-Home.getLayout = page => <AppLayout children={page} />
